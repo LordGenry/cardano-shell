@@ -43,4 +43,4 @@ mkLauncher os cluster = input auto launcherPath
 
 -- | Given an FileName, return 'FilePath' to dhall file
 toPath :: Text -> Text
-toPath fileName = "./dhall/" <> fileName <> ".dhall"
+toPath fileName = "./dhall/wallet/" <> fileName <> ".dhall"
